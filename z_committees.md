@@ -21,6 +21,9 @@ nav: true
   {% endfor %}
 </div>
 
+<br>
+<br>
+
 ## Advisory Board
 <div class="people-grid-container">
   {% for person in site.data.advisory_board %}
@@ -37,3 +40,6 @@ nav: true
     </div>
   {% endfor %}
 </div>
+
+<br>
+*Equal contribution
