@@ -3,6 +3,6 @@ title: Call for Papers
 nav: true
 ---
 
-# Call for Papers
+<h2> Call for Papers </h2>
 
 [To be completed after acceptance]
