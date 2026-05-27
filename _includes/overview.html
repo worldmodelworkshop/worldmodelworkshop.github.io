@@ -1,0 +1,23 @@
+<h2> Abstract </h2>
+{: style="text-align: center;"}
+This workshop focuses on the intersection between neural and symbolic world models for robot learning, planning, and reasoning. We aim to bring together researchers across neural, symbolic, and hybrid communities to clarify terminology, align assumptions, and identify shared challenges. Ideally, this will elicit methods that address the data inefficiency of neural methods and the demanding domain engineering of symbolic methods. Hybrid methods may improve generalization, interpretability, and long-horizon reasoning to help tackle complex domains, where structured task knowledge and state prediction are critical. 
+
+<h2> Objectives </h2>
+{: style="text-align: center;"}
+The following questions outline the workshop's core objectives and provide a thematic framework for potential contributors. While comprehensive solutions are encouraged, these primarily define the scope and hopefully inspire research directions.
+
+<h3> Neuro-Symbolic Unification </h3>
+* How can neural and symbolic perspectives be formally related or unified into world models for robotics? 
+* What are the benefits and drawbacks of combining neural and symbolic models? Is there a principled way to do so?
+* How can neural world model architectures be integrated with symbolic priors and planning tools for improved, long-horizon reasoning, data-efficiency, and generalization?
+* How can symbolic world models be enhanced by high-dimensional latent world models for symbol and predicate extraction and improved interpretability of latent embeddings?
+* How can symbolic planners be used for data collection to train neural world models for trajectory generation, data collection, and safe exploration?
+
+<h3> Application Concerns </h3>
+* How does the task application dictate the type of world model used?
+* How do we differentiate between classes of tasks for world models? How do we transition world models from simple tasks to complex tasks, such as those present in manufacturing domains?
+* What hybrid architectures (e.g., latent dynamics + symbolic constraint module, neuro-symbolic graph networks, neuro-symbolic program induction) are most effective across robotics tasks, especially those requiring high precision?
+
+<h3> Benchmarking and Evaluation </h3>
+* How do world models differ in terms of their horizon limit and coarseness level? 
+* What benchmarks and metrics define a 'sufficient' world model, and how can we rigorously evaluate hybrid architectures across the axes of modeling fidelity, diverse task success, and deployment readiness?
