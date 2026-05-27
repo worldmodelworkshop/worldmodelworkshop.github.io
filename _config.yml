@@ -10,11 +10,11 @@
 # title appears in the header
 title: World Models
 # description and keywords for meta tags
-description: "Create an OER workshop website quick and easy!"
-keywords: "workshops, OER, Open Education, websites, gh-pages, jekyll"
+description: "Workshop website for IROS 2026"
+keywords: "workshops, world models, IROS, neuro-symbolic, gh-pages, jekyll"
 
 # author settings for cc-by, appears in the footer
-author: Ahmed Jaafar
+author: Ahmed Jaafar and Brennan Swick
 pub_year: 2026
 github_username: worldmodelworkshop
 
