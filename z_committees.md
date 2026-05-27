@@ -3,43 +3,8 @@ title: Committees
 nav: true
 ---
 
-## Organizers
+<h2> Organizers </h2>
+{% include organizers.html %}
 
-<div class="people-grid-container">
-  {% for person in site.data.organizers %}
-    <div class="person">
-      <div class="circle-crop-wrapper">
-        <img src="{{ person.image | relative_url }}" alt="{{ person.name }}"
-          {% if person.position %}
-            style="object-position: {{ person.position }};"
-          {% endif %}>
-      </div>
-      <h3>{{ person.name }}</h3>
-      <p>{{ person.role }}</p>
-      <p>{{ person.affiliation }}</p>
-    </div>
-  {% endfor %}
-</div>
-
-<br>
-<br>
-
-## Advisory Board
-<div class="people-grid-container">
-  {% for person in site.data.advisory_board %}
-    <div class="person">
-      <div class="circle-crop-wrapper">
-        <img src="{{ person.image | relative_url }}" alt="{{ person.name }}"
-          {% if person.position %}
-            style="object-position: {{ person.position }};"
-          {% endif %}>
-      </div>
-      <h3>{{ person.name }}</h3>
-      <p>{{ person.role }}</p>
-      <p>{{ person.affiliation }}</p>
-    </div>
-  {% endfor %}
-</div>
-
-<br>
-*Equal contribution
+<h2> Advisory Board </h2>
+{% include advisory_board.html %}
