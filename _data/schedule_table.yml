@@ -1,0 +1,86 @@
+- time: "8:30 - 8:40 AM"
+  speaker: "Organizers"
+  topic: "Workshop Introduction"
+
+- time: "8:40 - 9:10 AM"
+  speaker: "Sherry Yang"
+  affiliation: "NYU and Google DeepMind"
+  topic: "From Pre-training World Models to Post-training Physical Agents"
+
+- time: "9:10 - 10:00 AM"
+  speaker: "1st Panel"
+  topic: "What is a World Model for Robotics?"
+  subevents:
+    - time: "9:10 - 9:30 AM"
+      description: "Panel discussion"
+    - time: "9:30 - 10:00 AM"
+      description: "Split panelists and audience into groups to discuss"
+
+- time: "10:00 - 10:15 AM"
+  speaker: ""
+  topic: "1st Lightning Talks Session"
+
+- time: "10:15 - 11:00 AM"
+  speaker: ""
+  topic: "1st Poster Session"
+  subevents:
+    - time: "10:30 - 11:00 AM"
+      description: "Coffee Break"
+
+- time: "11:00 - 11:30 AM"
+  speaker: "Yilun Du"
+  affiliation: "Harvard University"
+  topic: "Planning with Video Based World Models"
+
+- time: "11:30 - 12:00 PM"
+  speaker: "Tom Silver"
+  affiliation: "Princeton University"
+  topic: "Learning Neuro-Symbolic World Models for Task and Motion Planning"
+
+- time: "12:00 - 12:30 PM"
+  speaker: "Emre Ugur"
+  affiliation: "Bogazici University"
+  topic: "Emergence of Action and Object Symbols and Symbolic Rules in Robotics"
+
+- time: "12:30 - 1:30 PM"
+  speaker: ""
+  topic: "Lunch"
+
+- time: "1:30 - 2:00 PM"
+  speaker: "Siddharth Srivastava"
+  affiliation: "Arizona State University"
+  topic: "Learning Relational World Models for Robot Planning"
+
+- time: "2:00 - 2:30 PM"
+  speaker: "Sungjin Ahn"
+  affiliation: "KAIST and NYU"
+  topic: "Towards World Theory Models"
+
+- time: "2:30 - 3:00 PM"
+  speaker: ""
+  topic: "Spotlight Talks"
+
+- time: "3:00 - 3:15 PM"
+  speaker: ""
+  topic: "2nd Lightning Talks Session"
+
+- time: "3:15 - 4:00 PM"
+  speaker: ""
+  topic: "2nd Poster Session"
+  subevents:
+    - time: "3:30 - 5:00 PM"
+      description: "Coffee Break"
+
+- time: "4:00 - 4:30 PM"
+  speaker: "Jiajun Wu"
+  affiliation: "Stanford University"
+  topic: "Structured Representations in Actions, Objects, and Tasks for Robotics"
+
+- time: "4:30 - 5:30 PM"
+  speaker: "2nd Panel"
+  topic: "Integrating Neural and Symbolic Architectures"
+  subevents:
+    - time: "4:30 - 5:15 PM"
+      description: "Panel discussion"
+    - time: "5:15 - 5:30 PM"
+      description: "Audience Q&A"
