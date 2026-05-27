@@ -1,0 +1,75 @@
+/* Table Base Styles */
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: inherit; /* Inherits your site's font */
+  font-size: 15px;
+}
+
+/* Dark Header */
+.schedule-table thead th {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: left;
+  padding: 12px 16px;
+  font-weight: normal;
+}
+
+/* Standard Cells */
+.schedule-table tbody td {
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+  vertical-align: top;
+  color: #333333;
+}
+
+/* Speaker Name and Affiliation */
+.speaker-col strong {
+  color: #222222;
+  font-weight: 600;
+}
+.speaker-col .affiliation {
+  color: #999999;
+  font-size: 0.9em;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+/* Highlighted Break Rows */
+.break-row {
+  background-color: #f1f4e8; /* Matches the light greenish-gray from the image */
+}
+.break-row td {
+  border-bottom: 1px solid #dcdcdc; /* Slightly darker border to match the background */
+}
+
+/* Subevent Styling */
+.subevents-list {
+  list-style-type: none; /* Removes the default bullet points */
+  padding-left: 0;
+  margin-top: 12px;
+  margin-bottom: 0;
+  border-top: 1px dashed #e0e0e0; /* Optional: adds a subtle dividing line */
+  padding-top: 12px;
+}
+
+.subevents-list li {
+  margin-bottom: 8px;
+  font-size: 0.95em;
+  display: flex;
+  gap: 12px; /* Creates clean space between the sub-time and description */
+}
+
+.subevents-list li:last-child {
+  margin-bottom: 0;
+}
+
+.sub-time {
+  color: #666666;
+  font-weight: 600;
+  white-space: nowrap; /* Prevents the time from wrapping awkwardly */
+}
+
+.sub-desc {
+  color: #444444;
+}
