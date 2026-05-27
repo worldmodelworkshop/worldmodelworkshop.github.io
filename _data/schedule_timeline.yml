@@ -1,0 +1,162 @@
+- start_time: "8:30"
+  end_time: "8:40"
+  category_type: "keynote"
+  speaker: ""
+  title: "Opening Remarks"
+
+- start_time: "8:40"
+  end_time: "9:10"
+  category_type: "keynote"
+  categories:
+    - category: "Keynote"
+      category_type: "keynote"
+  speaker: "Sherry Yang"
+  affiliation: "New York University, Google DeepMind"
+  title: "From Pre-training World Models to Post-training Physical Agents"
+
+- start_time: "9:10"
+  end_time: "10:00"
+  category_type: "panel"
+  categories:
+    - category: "Panel"
+      category_type: "panel"
+  title: "What is a World Model for Robotics?"
+  subevents:
+    - time: "9:10 - 9:30"
+      title: "Panel discussion"
+    - time: "9:30 - 10:00"
+      title: "Split panelists and audience into groups to discuss"
+
+- start_time: "10:00"
+  end_time: "10:15"
+  category_type: "accepted_papers"
+  categories:
+    - category: "Accepted Papers"
+      category_type: "accepted_papers"
+  speaker: ""
+  title: "1st Lightning Talks Session"
+
+- start_time: "10:15"
+  end_time: "11:00"
+  speaker: ""
+  category_type: "accepted_papers"
+  categories:
+    - category: "Poster Session"
+      category_type: "accepted_papers"
+    - category: "Break"
+      category_type: "break"
+  title: "1st Poster Session and Coffee Break"
+  subevents:
+    - time: "10:30 - 11:00"
+      title: "Coffee Break"
+
+- start_time: "11:00"
+  end_time: "11:30"
+  category_type: "keynote"
+  categories:
+    - category: "Keynote"
+      category_type: "keynote"
+  speaker: "Yilun Du"
+  affiliation: "Harvard University"
+  title: "Planning with Video Based World Models"
+
+- start_time: "11:30"
+  end_time: "12:00"
+  category_type: "keynote"
+  categories:
+    - category: "Keynote"
+      category_type: "keynote"
+  speaker: "Tom Silver"
+  affiliation: "Princeton University"
+  title: "Learning Neuro-Symbolic World Models for Task and Motion Planning"
+
+- start_time: "12:00"
+  end_time: "12:30"
+  category_type: "keynote"
+  categories:
+    - category: "Keynote"
+      category_type: "keynote"
+  speaker: "Emre Ugur"
+  affiliation: "Bogazici University"
+  title: "Emergence of Action and Object Symbols and Symbolic Rules in Robotics"
+
+- start_time: "12:30"
+  end_time: "1:30"
+  category_type: "break"
+  categories:
+    - category: "Break"
+      category_type: "break"
+  title: "Lunch (On Your Own)"
+
+- start_time: "1:30"
+  end_time: "2:00"
+  category_type: "keynote"
+  categories:
+    - category: "Keynote"
+      category_type: "keynote"
+  speaker: "Siddharth Srivastava"
+  affiliation: "Arizona State University"
+  title: "Learning Relational World Models for Robot Planning"
+
+- start_time: "2:00"
+  end_time: "2:30"
+  category_type: "keynote"
+  categories:
+    - category: "Keynote"
+      category_type: "keynote"
+  speaker: "Sungjin Ahn"
+  affiliation: "KAIST, New York University"
+  title: "Towards World Theory Models"
+
+- start_time: "2:30"
+  end_time: "3:00"
+  category_type: "accepted_papers"
+  categories:
+    - category: "Accepted Papers"
+      category_type: "accepted_papers"
+  title: "Spotlight Talks"
+
+- start_time: "3:00"
+  end_time: "3:15"
+  category_type: "accepted_papers"
+  categories:
+    - category: "Accepted Papers"
+      category_type: "accepted_papers"
+  title: "2nd Lightning Talks Session"
+
+- start_time: "3:15"
+  end_time: "4:00"
+  speaker: ""
+  category_type: "accepted_papers"
+  categories:
+    - category: "Poster Session"
+      category_type: "accepted_papers"
+    - category: "Break"
+      category_type: "break"
+  title: "2nd Poster Session and Coffee Break"
+  subevents:
+    - time: "3:30 - 4:00 PM"
+      title: "Coffee Break"
+
+- start_time: "4:00"
+  end_time: "4:30"
+  category_type: "keynote"
+  categories:
+    - category: "Keynote"
+      category_type: "keynote"
+  speaker: "Jiajun Wu"
+  affiliation: "Stanford University"
+  title: "Structured Representations in Actions, Objects, and Tasks for Robotics"
+
+- start_time: "4:30"
+  end_time: "5:30"
+  category_type: "panel"
+  categories:
+    - category: "Panel"
+      category_type: "panel"
+  title: "Integrating Neural and Symbolic Architectures"
+  subevents:
+    - time: "4:30 - 5:15"
+      title: "Panel discussion"
+    - time: "5:15 - 5:30"
+      title: "Audience Q&A"

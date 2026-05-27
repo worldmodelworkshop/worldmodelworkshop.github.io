@@ -1,0 +1,192 @@
+/* Layout structure */
+.schedule-timeline {
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+  max-width: 900px;
+}
+
+.timeline-item {
+  display: flex;
+  margin-bottom: 0; /* Let the marker line dictate spacing */
+}
+
+/* Left Column: Time Stack */
+.timeline-time {
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2px;
+  padding-right: 20px;
+}
+
+.time-start {
+  font-weight: 700;
+  color: #111827;
+  font-size: 1.1em;
+}
+
+.time-end {
+  color: #9ca3af;
+  font-size: 0.9em;
+  margin-top: 4px;
+}
+
+/* Middle Column: Timeline Line & Circle */
+.timeline-marker {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.marker-circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid;
+  background-color: white;
+  z-index: 2;
+  margin-top: 6px;
+}
+
+.marker-line {
+  width: 2px;
+  background-color: #e5e7eb;
+  flex-grow: 1; /* Stretches line to the next item */
+  min-height: 30px; /* Ensures minimum spacing between events */
+}
+
+/* Hide the line on the very last item */
+.timeline-item:last-child .marker-line {
+  display: none;
+}
+
+/* Right Column: Event Info */
+.timeline-content {
+  flex-grow: 1;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f3f4f6; /* Subtle separator line */
+  margin-bottom: 5px;
+}
+
+.content-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.duration {
+  color: #9ca3af;
+  font-size: 0.9em;
+}
+
+.event-title {
+  margin: 0 0 4px 0;
+  font-size: 1em;
+  color: #111827;
+  font-weight: 600;
+}
+
+.event-speaker {
+  margin: 0;
+  color: #4b5563;
+  font-size: 0.95em;
+}
+
+.event-speaker strong {
+  color: #111827;
+}
+
+.affiliation {
+  color: #6b7280;
+}
+
+/* --- Dynamic Colors --- */
+
+/* Invited Talk */
+.pill-keynote {
+  background-color: #dde7fe;
+  color: #648fff;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+.class-keynote {
+  border-color: #648fff; /* Circle color */
+}
+
+/* Panel */
+.pill-panel {
+  background-color: #d7d2f0;
+  color: #785ef0;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+.class-panel {
+  border-color: #785ef0; /* Circle color */
+}
+
+/* Accepted Papers */
+.pill-accepted_papers {
+  background-color: #f0dde6;
+  color: #dc267f;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+.class-accepted_papers {
+  border-color: #dc267f; /* Circle color */
+}
+
+/* Break */
+.pill-break {
+  background-color: #f5ead3;
+  color: #ffb000;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+.class-break {
+  border-color: #ffb000; /* Circle color */
+}
+
+/* Nested Subevents Styling */
+.subevents-container {
+  margin-top: 10px;
+  padding-top: 0;
+  padding-left: 16px;
+  border-left: 2px dashed #e5e7eb; /* Creates a subtle inner timeline */
+}
+
+.subevent-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 6px;
+}
+
+.subevent-item:last-child {
+  margin-bottom: 0;
+}
+
+.subevent-time {
+  color: #6b7280;
+  font-size: 0.9em;
+  font-variant-numeric: tabular-nums; /* Keeps numbers nicely aligned */
+  min-width: 105px; /* Ensures the titles align vertically */
+  flex-shrink: 0;
+}
+
+.subevent-title {
+  color: #4b5563;
+  font-size: 0.95em;
+  line-height: 1.4;
+}
