@@ -8,12 +8,12 @@
 
 # Site settings
 # title appears in the header
-title: World Models
+title: RoBoWoMo
 # description and keywords for meta tags
 description: "Workshop website for IROS 2026"
 keywords: "workshops, world models, IROS, neuro-symbolic, gh-pages, jekyll"
 
-# author settings for cc-by, appears in the footer
+# author settings for cc-by
 author: Ahmed Jaafar and Brennan Swick
 pub_year: 2026
 github_username: worldmodelworkshop

@@ -1,8 +1,7 @@
 ---
 title: Call for Papers
 nav: true
+permalink: /call_for_papers/
 ---
 
-<h2> Call for Papers </h2>
-
-[To be completed after acceptance]
+{% include cfp.html %}
