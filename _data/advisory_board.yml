@@ -11,12 +11,12 @@
   affiliation: "University of California San Diego"
   image: "images/organizer_headshots/hao.jpg"
   position: 50% 40%
-- name: "Justus Piater"
-  role: "Professor"
-  affiliation: "University of Innsbruck"
-  image: "images/organizer_headshots/justus.jpg"
 - name: "Yuke Zhu"
   role: "Associate Professor"
   affiliation: "University of Texas at Austin"
   image: "images/organizer_headshots/yuke.jpg"
   position: 50% 40%
+- name: "Justus Piater"
+  role: "Professor"
+  affiliation: "University of Innsbruck"
+  image: "images/organizer_headshots/justus.jpg"
