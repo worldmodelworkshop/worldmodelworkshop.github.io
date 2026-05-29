@@ -1,11 +1,8 @@
 ---
 title: Home
+hero_title: Bridging the Gap between Neural and Symbolic World Models for Robot Planning, Reasoning, and Action
+hero_subtitle: IROS 2026 Workshop
 ---
-
-<h1> Bridging the Gap between Neural and Symbolic World Models for Robot Planning, Reasoning, and Action </h1>
-{: style="text-align: center;"}
-
-{% include figure.html img="workshop_banner.png" alt="banner image here" caption="" width="75%" %}
 
 {% include overview.html %}
 
