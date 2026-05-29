@@ -7,6 +7,15 @@
     
     {% include header.html %}
 
+    {% if page.hero_title %}
+    <div class="hero-banner" style="background-image: linear-gradient(rgba(17, 24, 39, 0.6), rgba(17, 24, 39, 0.6)), url('{{ "/images/blue-network-banner.jpg" | relative_url }}');">
+      <div class="hero-content">
+        <h1 class="hero-title">{{ page.hero_title }}</h1>
+        <p class="hero-subtitle">{{ page.hero_subtitle }}</p>
+      </div>
+    </div>
+    {% endif %}
+
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
