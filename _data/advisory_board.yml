@@ -2,21 +2,26 @@
   role: "Assistant Professor"
   affiliation: "Haverford College"
   image: "images/organizer_headshots/thao.jpg"
+  link: https://thao-nguyen-ai.github.io/
 - name: "James Hardin"
   role: "Research Team Lead"
   affiliation: "Air Force Research Laboratory"
   image: "images/organizer_headshots/james.png"
-- name: "Hao Su"
-  role: "Associate Professor"
-  affiliation: "University of California San Diego"
-  image: "images/organizer_headshots/hao.jpg"
-  position: 50% 40%
+  link: https://scholar-google-com.wrs.idm.oclc.org/citations?user=T2ZFi38AAAAJ&hl=en&oi=ao
 - name: "Yuke Zhu"
   role: "Associate Professor"
   affiliation: "University of Texas at Austin"
   image: "images/organizer_headshots/yuke.jpg"
   position: 50% 40%
+  link: https://yukezhu.me/
 - name: "Justus Piater"
   role: "Professor"
   affiliation: "University of Innsbruck"
   image: "images/organizer_headshots/justus.jpg"
+  link: https://iis.uibk.ac.at/people/justus
+- name: "Hao Su"
+  role: "Distinguished Professor"
+  affiliation: "Fudan University"
+  image: "images/organizer_headshots/hao.jpg"
+  position: 50% 40%
+  link: https://www.haosu.ai/
