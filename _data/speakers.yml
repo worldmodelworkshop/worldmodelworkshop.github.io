@@ -2,29 +2,36 @@
   role: "Assitant Professor"
   affiliation: "New York University"
   image: "images/speaker_headshots/sherry.jpeg"
+  link: https://sherryy.github.io/
 - name: "Yilun Du"
   role: "Assistant Professor"
   affiliation: "Harvard University"
   image: "images/speaker_headshots/yilun.png"
+  link: https://yilundu.github.io/
 - name: "Tom Silver"
   role: "Assistant Professor"
   affiliation: "Princeton University"
   image: "images/speaker_headshots/tom.jpg"
   position: 50% 25%
+  link: https://tomsilver.github.io/
 - name: "Emre Ugur"
   role: "Associate Professor"
   affiliation: "Bogazici University"
   image: "images/speaker_headshots/emre.png"
   position: 50% 0%
+  link: https://emreugur.org/
 - name: "Siddharth Srivastava"
   role: "Associate Professor"
   affiliation: "Arizona State University"
   image: "images/speaker_headshots/siddharth.jpg"
+  link: https://sidsrivast.github.io/
 - name: "Sungjin Ahn"
   role: "Associate Professor"
   affiliation: "KAIST"
-  image: "images/speaker_headshots/sungjin.webp"  
+  image: "images/speaker_headshots/sungjin.webp"
+  link: https://mlml.kaist.ac.kr/sungjinahn
 - name: "Jiajun Wu"
   role: "Assistant Professor"
   affiliation: "Stanford University"
   image: "images/speaker_headshots/jiajun.jpg"
+  link: https://jiajunwu.com/
