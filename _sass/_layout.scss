@@ -70,7 +70,7 @@
       display: none;
     }
 
-    &:hover .trigger {
+    &.menu-open .trigger {
       display: block;
       padding-bottom: 5px;
     }
