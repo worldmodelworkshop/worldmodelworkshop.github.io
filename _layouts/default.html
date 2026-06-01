@@ -24,4 +24,24 @@
 
   </body>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Get the navigation container and the menu icon
+    const siteNav = document.getElementById("site-nav");
+    const menuIcon = siteNav.querySelector(".menu-icon");
+
+    // Toggle the 'menu-open' class when the icon is clicked
+    menuIcon.addEventListener("click", function(event) {
+      siteNav.classList.toggle("menu-open");
+      event.stopPropagation(); // Prevents click from bubbling to document
+    });
+
+    // Optional but highly recommended: Close menu if user clicks elsewhere on the page
+    document.addEventListener("click", function(event) {
+      if (!siteNav.contains(event.target)) {
+        siteNav.classList.remove("menu-open");
+      }
+    });
+  });
+</script>
 </html>
