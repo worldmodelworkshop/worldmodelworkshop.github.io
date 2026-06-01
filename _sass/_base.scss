@@ -187,16 +187,17 @@ pre {
 }
 
 .person {
-  flex: 1 1 calc(20% - 3.2rem);
-  min-width: 180px;
+  flex: 1 1 calc(20% - 3.2rem);  
+  min-width: 20%;
+  max-width: 20%;
+  aspect-ratio: 1 / 1;
   box-sizing: border-box;
   text-align: center;
 }
 
 /* Circular Crop for Images */
 .circle-crop-wrapper {
-  width: 160px;
-  height: 160px;
+  aspect-ratio: 1 / 1;
   margin: 0 auto 1.2rem;
   overflow: hidden;
   border-radius: 50%;
@@ -219,4 +220,20 @@ pre {
   color: #666;
   margin-bottom: 0rem;
   font-size: 0.9rem;
+}
+
+/* Mobile Typography Scaling */
+@include media-query($on-palm) {
+  .person h3 {
+    font-size: 0.6rem; 
+    margin: 0.3rem 0; 
+  }
+  
+  .person p {
+    font-size: 0.4rem;
+  }
+  
+  .people-grid-container {
+    gap: 1rem; 
+  }
 }
