@@ -187,10 +187,10 @@ pre {
 }
 
 .person {
-  flex: 1 1 calc(20% - 3.2rem);  
+  flex: 1 1 calc(20% - 3.2rem);
+  flex: 1 1 -webkit-calc(20% - 3.2rem);
   min-width: 20%;
   max-width: 20%;
-  aspect-ratio: 1 / 1;
   box-sizing: border-box;
   text-align: center;
 }
@@ -234,6 +234,10 @@ pre {
   }
   
   .people-grid-container {
-    gap: 1rem; 
+    gap: 0.5rem; 
+  }
+
+  .circle-crop-wrapper{
+    margin-bottom: 0 auto 0.4rem;
   }
 }
