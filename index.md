@@ -29,3 +29,8 @@ For those interested in submitting, please see the [Call for Papers]({{ site.bas
 {: style="text-align: center;"}
 
 {% include advisory_board.html %}
+
+<h2> Sponsor </h2>
+{: style="text-align: center;"}
+
+{% include sponsors.html %}
