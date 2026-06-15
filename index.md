@@ -8,7 +8,7 @@ hero_subtitle: IROS 2026 Workshop
 
 <h2> Call for Papers </h2>
 {: style="text-align: center;"}
-For those interested in submitting, please see the [Call for Papers]({{ site.baseurl }}/call_for_papers/) page for further details.
+For those interested in submitting, please see the [Call for Papers]({{ site.baseurl }}/call_for_papers/) page for further details. There will be awards for 1st and 2nd best papers at the workshop, which are provided by the IEEE RAS Technical Committee on Algorithms for Planning and Control of Robot Motion.
 
 <h2> Speakers </h2>
 {: style="text-align: center;"}
