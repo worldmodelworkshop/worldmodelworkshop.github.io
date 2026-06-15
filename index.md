@@ -1,7 +1,8 @@
 ---
 title: Home
 hero_title: "RoBoWoMo: Bridging the Gap between Neural and Symbolic World Models for Robot Planning, Reasoning, and Action"
-hero_subtitle: IROS 2026 Workshop
+hero_subtitle: IROS 2026 Full Day Workshop
+hero_subsubtitle: September 27th, 2026 
 ---
 
 {% include overview.html %}
