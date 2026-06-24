@@ -5,27 +5,28 @@
   title: "Opening Remarks"
 
 - start_time: "8:40"
-  end_time: "9:10"
-  category_type: "keynote"
-  categories:
-    - category: "Keynote"
-      category_type: "keynote"
-  speaker: "Sherry Yang"
-  affiliation: "New York University, Google DeepMind"
-  title: "From Pre-training World Models to Post-training Physical Agents"
-
-- start_time: "9:10"
-  end_time: "10:00"
+  end_time: "9:30"
   category_type: "panel"
+  speaker: "Tom Silver, Siddharth Srivastava, Sherry Yang"
   categories:
     - category: "Panel"
       category_type: "panel"
   title: "What is a World Model for Robotics?"
   subevents:
-    - time: "9:10 - 9:30"
+    - time: "8:40 - 9:00"
       title: "Panel discussion"
-    - time: "9:30 - 10:00"
+    - time: "9:00 - 10:30"
       title: "Split panelists and audience into groups to discuss"
+
+- start_time: "9:30"
+  end_time: "10:00"
+  category_type: "keynote"
+  categories:
+    - category: "Invited Talk"
+      category_type: "keynote"
+  speaker: "Sherry Yang"
+  affiliation: "New York University, Google DeepMind"
+  title: "From Pre-training World Models to Post-training Physical Agents"
 
 - start_time: "10:00"
   end_time: "10:15"
@@ -54,7 +55,7 @@
   end_time: "11:30"
   category_type: "keynote"
   categories:
-    - category: "Keynote"
+    - category: "Invited Talk"
       category_type: "keynote"
   speaker: "Yilun Du"
   affiliation: "Harvard University"
@@ -64,7 +65,7 @@
   end_time: "12:00"
   category_type: "keynote"
   categories:
-    - category: "Keynote"
+    - category: "Invited Talk"
       category_type: "keynote"
   speaker: "Tom Silver"
   affiliation: "Princeton University"
@@ -74,11 +75,11 @@
   end_time: "12:30"
   category_type: "keynote"
   categories:
-    - category: "Keynote"
+    - category: "Invited Talk"
       category_type: "keynote"
-  speaker: "Emre Ugur"
-  affiliation: "Bogazici University"
-  title: "Emergence of Action and Object Symbols and Symbolic Rules in Robotics"
+  speaker: "Siddharth Srivastava"
+  affiliation: "Arizona State University"
+  title: "Learning Relational World Models for Robot Planning"
 
 - start_time: "12:30"
   end_time: "1:30"
@@ -92,17 +93,17 @@
   end_time: "2:00"
   category_type: "keynote"
   categories:
-    - category: "Keynote"
+    - category: "Invited Talk"
       category_type: "keynote"
-  speaker: "Siddharth Srivastava"
-  affiliation: "Arizona State University"
-  title: "Learning Relational World Models for Robot Planning"
+  speaker: "Emre Ugur"
+  affiliation: "Bogazici University"
+  title: "Emergence of Action and Object Symbols and Symbolic Rules in Robotics"
 
 - start_time: "2:00"
   end_time: "2:30"
   category_type: "keynote"
   categories:
-    - category: "Keynote"
+    - category: "Invited Talk"
       category_type: "keynote"
   speaker: "Sungjin Ahn"
   affiliation: "KAIST, New York University"
@@ -142,21 +143,28 @@
   end_time: "4:30"
   category_type: "keynote"
   categories:
-    - category: "Keynote"
+    - category: "Invited Talk"
       category_type: "keynote"
   speaker: "Jiajun Wu"
   affiliation: "Stanford University"
   title: "Structured Representations in Actions, Objects, and Tasks for Robotics"
 
 - start_time: "4:30"
-  end_time: "5:30"
+  end_time: "5:20"
   category_type: "panel"
+  speaker: "Sungjin Ahn, Yilun Du, Emre Ugur, Jiajun Wu"
   categories:
     - category: "Panel"
       category_type: "panel"
-  title: "Integrating Neural and Symbolic Architectures"
+  title: "Integrating Neural and Symbolic Architectures for Robot World Models"
   subevents:
-    - time: "4:30 - 5:15"
+    - time: "4:30 - 5:05"
       title: "Panel discussion"
-    - time: "5:15 - 5:30"
+    - time: "5:05 - 5:20"
       title: "Audience Q&A"
+
+- start_time: "5:20"
+  end_time: "5:30"
+  category_type: "keynote"
+  speaker: ""
+  title: "Closing Remarks and Best Paper Award Announcement"
