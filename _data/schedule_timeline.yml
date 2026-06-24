@@ -15,7 +15,7 @@
   subevents:
     - time: "8:40 - 9:00"
       title: "Panel discussion"
-    - time: "9:00 - 10:30"
+    - time: "9:00 - 9:30"
       title: "Split panelists and audience into groups to discuss"
 
 - start_time: "9:30"
