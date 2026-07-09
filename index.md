@@ -9,7 +9,7 @@ hero_subsubtitle: September 27th, 2026
 
 <h2> Call for Papers </h2>
 {: style="text-align: center;"}
-For those interested in submitting, please see the [Call for Papers]({{ site.baseurl }}/call_for_papers/) page for further details. There will be awards for the top 4 best papers at the workshop, which are provided by the <a href="https://www.ieee-ras.org/algorithms-for-planning-and-control-of-robot-motion/">IEEE RAS Technical Committee on Algorithms for Planning and Control of Robot Motion</a> and the <a href="https://www.ieee-ras.org/cognitive-robotics/">IEEE RAS Technical Committee on Cognitive Robotics</a> for their support funding these awards.
+For those interested in submitting, please see the [Call for Papers]({{ site.baseurl }}/call_for_papers/) page for further details. There will be awards for the top 4 best papers at the workshop, which are provided by the <a href="https://www.ieee-ras.org/algorithms-for-planning-and-control-of-robot-motion/">IEEE RAS Technical Committee on Algorithms for Planning and Control of Robot Motion</a> and the <a href="https://www.ieee-ras.org/cognitive-robotics/">IEEE RAS Technical Committee on Cognitive Robotics</a>.
 
 <h2> Speakers </h2>
 {: style="text-align: center;"}
