@@ -242,3 +242,19 @@ pre {
     margin-bottom: 0 auto 0.4rem;
   }
 }
+
+.header-logo-link {
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 8px;
+}
+
+.header-logo-img {
+  height: 40px;
+  width: auto;
+}
+
+.site-title {
+  vertical-align: middle;
+}
