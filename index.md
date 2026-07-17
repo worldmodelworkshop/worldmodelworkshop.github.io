@@ -35,3 +35,8 @@ For those interested in submitting, please see the [Call for Papers]({{ site.bas
 {: style="text-align: center;"}
 
 {% include sponsors.html %}
+
+
+{: style="text-align: center;"}
+
+{% include contact.html %}
