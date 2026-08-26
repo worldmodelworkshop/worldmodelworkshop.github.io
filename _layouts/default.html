@@ -13,6 +13,9 @@
         <h1 class="hero-title">{{ page.hero_title }}</h1>
         <p class="hero-subtitle">{{ page.hero_subtitle }}</p>
         <p class="hero-subtitle">{{ page.hero_subsubtitle }}</p>
+        {% if page.hero_alert %}
+          <p class="hero-subtitle" style="color: #ff4d4d; font-weight: bold; margin-top: 5px;">{{ page.hero_alert }}</p>
+        {% endif %}
         <div class="hero-actions">
           <div class="action-card award-gold">
             <strong>🥇 1st Place</strong> Best Paper Award
