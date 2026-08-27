@@ -7,7 +7,7 @@
 - start_time: "8:40"
   end_time: "9:30"
   category_type: "panel"
-  speaker: "Tom Silver, Siddharth Srivastava, Sherry Yang"
+  speaker: "Tom Silver, Siddharth Srivastava, Sherry Yang, Jiajun Wu"
   categories:
     - category: "Panel"
       category_type: "panel"
@@ -57,10 +57,10 @@
   categories:
     - category: "Invited Talk"
       category_type: "keynote"
-  speaker: "Yilun Du"
-  affiliation: "Harvard University"
-  title: "Planning with Video Based World Models"
-
+  speaker: "Jiajun Wu"
+  affiliation: "Stanford University"
+  title: "Structured Representations in Actions, Objects, and Tasks for Robotics"
+  
 - start_time: "11:30"
   end_time: "12:00"
   category_type: "keynote"
@@ -145,14 +145,14 @@
   categories:
     - category: "Invited Talk"
       category_type: "keynote"
-  speaker: "Jiajun Wu"
-  affiliation: "Stanford University"
-  title: "Structured Representations in Actions, Objects, and Tasks for Robotics"
+  speaker: "Yilun Du"
+  affiliation: "Harvard University"
+  title: "Planning with Video Based World Models"
 
 - start_time: "4:30"
   end_time: "5:20"
   category_type: "panel"
-  speaker: "Sungjin Ahn, Yilun Du, Emre Ugur, Jiajun Wu"
+  speaker: "Sungjin Ahn, Yilun Du, Emre Ugur"
   categories:
     - category: "Panel"
       category_type: "panel"
