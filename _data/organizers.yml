@@ -14,16 +14,16 @@
   image: "images/organizer_headshots/alper.jpg"
   position: 50% 30%
   link: https://aahmetoglu.com/
-- name: "Naman Shah"
-  role: "Research Scientist"
-  affiliation: "Allen Institute for Artificial Intelligence"
-  image: "images/organizer_headshots/naman.jpeg"
-  link: https://www.namanshah.net/#about
 - name: "Josh Roy"
   role: "Ph.D. Student"
   affiliation: "Princeton University"
   image: "images/organizer_headshots/josh.jpeg"
   link: https://joshnroy.github.io/
+- name: "Naman Shah"
+  role: "Research Scientist"
+  affiliation: "Allen Institute for Artificial Intelligence"
+  image: "images/organizer_headshots/naman.jpeg"
+  link: https://www.namanshah.net/#about
 - name: "David Paulius"
   role: "Postdoctoral Scholar"
   affiliation: "University of Notre Dame"
