@@ -36,6 +36,8 @@
         {% endif %}
 
         {% if event.subevents %}
+        
+          {% if event.start_open %}
           <div class="subevents-container">
             {% for sub in event.subevents %}
               <div class="subevent-item">
@@ -44,6 +46,23 @@
               </div>
             {% endfor %}
           </div>
+          {% endif %}
+
+          {% unless event.start_open %}
+          <details class="subevents-details">
+            <summary class="subevents-toggle">View detailed schedule</summary>
+
+            <div class="subevents-container">
+              {% for sub in event.subevents %}
+                <div class="subevent-item">
+                  <span class="subevent-time">{{ sub.time }}</span>
+                  <span class="subevent-title">{{ sub.title }}</span>
+                </div>
+              {% endfor %}
+            </div>
+          </details>
+          {% endunless %}
+          
         {% endif %}
         
       </div>

@@ -12,6 +12,7 @@
     - category: "Panel"
       category_type: "panel"
   title: "What is a World Model for Robotics?"
+  start_open: true
   subevents:
     - time: "8:40 - 9:00"
       title: "Panel discussion"
@@ -36,6 +37,22 @@
       category_type: "accepted_papers"
   speaker: ""
   title: "1st Lightning Talks Session"
+  start_open: false
+  subevents:
+  - time: "10:00 - 10:02"
+    title: "Causal Neuro-Symbolic World Models for Robotics: A Taxonomy Bridging Interventional Reasoning and Physical Autonomy"
+  - time: "10:02 - 10:04"
+    title: "Grounded-Dreamer: Robot Learning from World Model Synthetic Data with Physical Grounding"
+  - time: "10:04 - 10:06"
+    title: "DexTouch-WM: Learning Action-Conditioned Tactile World Models from Human Touch for Dexterous Robot Manipulation"
+  - time: "10:06 - 10:08"
+    title: "Wild-World: Action-Conditioned RGB-D-Semantic World Modeling for Field Robotics"
+  - time: "10:08 - 10:10"
+    title: "Motion as Communication: Plan-Conditioned Diffusion World Models for Negotiation at Unprotected Conflict Points"
+  - time: "10:10 - 10:12"
+    title: "Relationally Grounded Latent World Models for Autonomous Driving"
+  - time: "10:12 - 10:14"
+    title: "Abstract World Models: Flow Policies as Implicit Action Representations"  
 
 - start_time: "10:15"
   end_time: "11:00"
@@ -47,6 +64,7 @@
     - category: "Break"
       category_type: "break"
   title: "1st Poster Session and Coffee Break"
+  start_open: true
   subevents:
     - time: "10:30 - 11:00"
       title: "Coffee Break"
@@ -116,6 +134,18 @@
     - category: "Accepted Papers"
       category_type: "accepted_papers"
   title: "Spotlight Talks"
+  start_open: false
+  subevents:
+    - time: "2:30 - 2:36"
+      title: "GlanceWAM: Sparse Test-Time Imagination for World-Action Models"
+    - time: "2:36 - 2:42"
+      title: "&mu;<sub>0</sub>: A Scalable 3D Interaction-Trace World Model"
+    - time: "2:42 - 2:48"
+      title: "Bilevel Planning with Learned Symbolic Abstractions from Interaction Data"
+    - time: "2:48 - 2:54"
+      title: "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators"
+    - time: "2:54 - 3:00"
+      title: "Bridging Learned Visual Perception and Symbolic Belief-Space Planning via Probabilistic Grounding"
 
 - start_time: "3:00"
   end_time: "3:15"
@@ -124,6 +154,22 @@
     - category: "Accepted Papers"
       category_type: "accepted_papers"
   title: "2nd Lightning Talks Session"
+  start_open: false
+  subevents:
+    - time: "3:00 - 3:02"
+      title: "iFlax: Neuro-Symbolic Learning for Long-Horizon Task Planning Under Complex Logical Constraints"
+    - time: "3:02 - 3:04"
+      title: "STRIPS-WM: Learning Grounded Propositional STRIPS-style World Models from Images"
+    - time: "3:04 - 3:06"
+      title: "Option Discovery Using LLM-guided Semantic Hierarchical Reinforcement Learning"
+    - time: "3:06 - 3:08"
+      title: "Four Planners, One Building: Shared-Task Benchmarking of Neural and Neurosymbolic World Models, and Three Ways It Misleads"
+    - time: "3:08 - 3:10"
+      title: "A Faithful Heading Variable Emerges in Predictive World Models Only Under Partial Observability"
+    - time: "3:10 - 3:12"
+      title: "Fires Precisely, Not Early: A Pre-Registered Geodesic Trust Signal for World-Model Rollouts"
+    - time: "3:12 - 3:14"
+      title: "Benchmarking and Advancing Physical Reasoning in Large Language Models Through Agents"
 
 - start_time: "3:15"
   end_time: "4:00"
@@ -135,6 +181,7 @@
     - category: "Break"
       category_type: "break"
   title: "2nd Poster Session and Coffee Break"
+  start_open: true
   subevents:
     - time: "3:30 - 4:00 PM"
       title: "Coffee Break"
@@ -157,6 +204,7 @@
     - category: "Panel"
       category_type: "panel"
   title: "Integrating Neural and Symbolic Architectures for Robot World Models"
+  start_open: true
   subevents:
     - time: "4:30 - 5:05"
       title: "Panel discussion"

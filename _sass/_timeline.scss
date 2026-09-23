@@ -161,6 +161,43 @@
   border-color: #ffb000; /* Circle color */
 }
 
+/* --- Expand/Collapse Toggle --- */
+.subevents-details {
+  margin-top: 10px;
+}
+
+.subevents-toggle {
+  cursor: pointer;
+  font-size: 0.9em;
+  color: #4f46e5; /* A nice interactive blue/purple */
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  transition: color 0.2s;
+}
+
+.subevents-toggle:hover {
+  color: #3730a3;
+  text-decoration: underline;
+}
+
+/* 
+  Optional: If you want to change the default triangle icon that the 
+  browser provides, you can style the ::marker pseudo-element here.
+*/
+.subevents-toggle::marker {
+  color: #9ca3af;
+}
+
+/* Update your existing subevents-container slightly */
+.subevents-container {
+  margin-top: 12px; /* Add a little space between the button and the expanded list */
+  padding-top: 0;
+  padding-left: 16px;
+  border-left: 2px dashed #e5e7eb; 
+}
+
 /* Nested Subevents Styling */
 .subevents-container {
   margin-top: 10px;
