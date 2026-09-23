@@ -56,7 +56,15 @@
               {% for sub in event.subevents %}
                 <div class="subevent-item">
                   <span class="subevent-time">{{ sub.time }}</span>
-                  <span class="subevent-title">{{ sub.title }}</span>
+                  <span class="subevent-title">
+                    {% if sub.link %}
+                      <a href="{{ sub.link }}" target="_blank" rel="noopener noreferrer">
+                        {{ sub.title }}
+                      </a>
+                    {% else %}
+                      {{ sub.title }}
+                    {% endif %}
+                  </span>
                 </div>
               {% endfor %}
             </div>
