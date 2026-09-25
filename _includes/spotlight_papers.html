@@ -1,0 +1,15 @@
+<div class="spotlight-container">
+  {% for paper in site.data.spotlights %}
+    <a href="{{ paper.link }}" class="spotlight-card" target="_blank" rel="noopener noreferrer">
+      
+      <!-- <span class="spotlight-badge">Spotlight Paper</span> -->
+      
+      <h3 class="spotlight-title">{{ paper.title }}</h3>
+      
+      {% if paper.authors %}
+        <p class="spotlight-authors">{{ paper.authors }}</p>
+      {% endif %}
+      
+    </a>
+  {% endfor %}
+</div>

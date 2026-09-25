@@ -1,0 +1,15 @@
+- title: "&mu;<sub>0</sub>: A Scalable 3D Interaction-Trace World Model"
+  link: "https://openreview.net/forum?id=m8o1GCWXKs"
+  authors: S. Lee, Y. Jung, J. Lee, J. Shin, A. H. Shahidzadeh, Y. Lee, H. J. Kim, J. Huang, and F. Huang
+- title: "Bilevel Planning with Learned Symbolic Abstractions from Interaction Data"
+  link: "https://openreview.net/forum?id=KWl3F0ixTH"
+  authors: F. Dogangun, B. Kilic, S. Bahar, E. Sahin, and E. Ugur
+- title: "Bridging Learned Visual Perception and Symbolic Belief-Space Planning via Probabilistic Grounding"
+  link: "https://openreview.net/forum?id=f9uFHN87qL"
+  authors: G. Azran, M. Navat, and S. Keren
+- title: "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators"
+  link: "https://openreview.net/forum?id=Pz0YtvePds"
+  authors: K. Liu and O. Sho
+- title: "GlanceWAM: Sparse Test-Time Imagination for World-Action Models"
+  link: "https://openreview.net/forum?id=8ZjOSFWb7U"
+  authors: L. Wang, Z. An, M. Zhang, C. Dai, Y. Xu, C. Cui, Z. Yang, Y. Chen, L. Zhou, and C. Lu

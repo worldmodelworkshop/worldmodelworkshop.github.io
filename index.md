@@ -8,9 +8,9 @@ hero_alert: "Room 406, 8:30 - 5:30"
 
 {% include overview.html %}
 
-<h2> Call for Papers </h2>
+<h2> Spotlight Papers </h2>
 {: style="text-align: center;"}
-For those interested in submitting, please see the [Call for Papers]({{ site.baseurl }}/call_for_papers/) page for further details. There will be awards for the top 4 best papers at the workshop, which are provided by the <a href="https://www.ieee-ras.org/algorithms-for-planning-and-control-of-robot-motion/">IEEE RAS Technical Committee on Algorithms for Planning and Control of Robot Motion</a> and the <a href="https://www.ieee-ras.org/cognitive-robotics/">IEEE RAS Technical Committee on Cognitive Robotics</a>.
+{% include spotlight_papers.html %}
 
 <h2> Speakers </h2>
 {: style="text-align: center;"}
