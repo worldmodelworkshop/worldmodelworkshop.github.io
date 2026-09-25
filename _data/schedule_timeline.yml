@@ -140,7 +140,10 @@
   categories:
     - category: "Accepted Papers"
       category_type: "accepted_papers"
+    - category: "Spotlight"
+      category_type: "spotlight"
   title: "Spotlight Talks"
+  is_spotlight: true
   start_open: false
   subevents:
     - time: "2:30 - 2:36"

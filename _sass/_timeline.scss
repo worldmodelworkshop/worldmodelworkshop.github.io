@@ -54,6 +54,26 @@
   margin-top: 6px;
 }
 
+.marker-star {
+  width: 18px; 
+  height: 18px;
+  background-color: white;
+  z-index: 2;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.marker-star svg {
+  width: 100%;
+  height: 100%;
+  fill: transparent;
+  stroke: currentColor;
+  stroke-width: 2px;
+  stroke-linejoin: round; 
+}
+
 .marker-line {
   width: 2px;
   background-color: #e5e7eb;
@@ -120,6 +140,7 @@
 }
 .class-keynote {
   border-color: #648fff; /* Circle color */
+  color: #648fff;
 }
 
 /* Panel */
@@ -133,6 +154,7 @@
 }
 .class-panel {
   border-color: #785ef0; /* Circle color */
+  color: #785ef0;
 }
 
 /* Accepted Papers */
@@ -146,6 +168,7 @@
 }
 .class-accepted_papers {
   border-color: #dc267f; /* Circle color */
+  color: #dc267f
 }
 
 /* Break */
@@ -159,6 +182,21 @@
 }
 .class-break {
   border-color: #ffb000; /* Circle color */
+  color: #ffb000
+}
+
+/* Spotlight */
+.pill-spotlight {
+  background-color: #ffcdaf;
+  color: #fe6100;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.85em;
+  font-weight: 600;
+}
+.class-spotlight {
+  border-color: #fe6100; /* Circle color */
+  color: #fe6100
 }
 
 /* --- Expand/Collapse Toggle --- */
