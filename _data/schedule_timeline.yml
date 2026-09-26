@@ -7,7 +7,7 @@
 - start_time: "8:40"
   end_time: "9:30"
   category_type: "panel"
-  speaker: "Tom Silver, Siddharth Srivastava, Sherry Yang, Jiajun Wu"
+  speaker: "Tom Silver, Siddharth Srivastava, Sherry Yang"
   categories:
     - category: "Panel"
       category_type: "panel"
@@ -84,7 +84,7 @@
       category_type: "keynote"
   speaker: "Jiajun Wu"
   affiliation: "Stanford University"
-  title: "Structured Representations in Actions, Objects, and Tasks for Robotics"
+  title: " Building Physical Agents via Structured Representations"
   
 - start_time: "11:30"
   end_time: "12:00"
