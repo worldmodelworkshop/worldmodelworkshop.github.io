@@ -13,6 +13,11 @@
         <h1 class="hero-title">{{ page.hero_title }}</h1>
         <p class="hero-subtitle">{{ page.hero_subtitle }}</p>
         <p class="hero-subtitle">{{ page.hero_subsubtitle }}</p>
+        <p class="hero-subtitle">
+          <a href="{{ page.hero_meeting_link}}" target="_blank" rel="noopener noreferrer">
+            Google Meet
+          </a>
+        </p>
         {% if page.hero_alert %}
           <p class="hero-subtitle" style="color: #ff4d4d; font-weight: bold; margin-top: 5px;">{{ page.hero_alert }}</p>
         {% endif %}

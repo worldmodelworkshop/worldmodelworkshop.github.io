@@ -38,6 +38,16 @@
   font-weight: 400;
 }
 
+.hero-subtitle a {
+  color: #e5e7eb;
+  text-decoration: none; 
+}
+
+.hero-subtitle a:hover {
+  color: #e5e7eb; 
+  text-decoration: underline;
+}
+
 @include media-query($on-palm) {
   .hero-title {
     font-size: 1.5rem; 
