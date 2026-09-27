@@ -27,7 +27,7 @@
       category_type: "keynote"
   speaker: "Sherry Yang"
   affiliation: "New York University, Google DeepMind"
-  title: "From Pre-training World Models to Post-training Physical Agents"
+  title: "Evaluating and Improving Physical Agents in a World Model"
 
 - start_time: "10:00"
   end_time: "10:15"
