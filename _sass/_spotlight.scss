@@ -38,6 +38,9 @@
 }
 
 .spotlight-title {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
   font-size: 1.05rem;
   color: #648fff; 
   margin: 0 0 2px 0;
@@ -49,4 +52,20 @@
   font-size: 0.85rem;
   color: #4b5563; 
   margin: 0;
+}
+
+.award-text {
+  flex: 0 0 40px;
+  color: #6b7280; 
+  font-weight: 500;
+  white-space: nowrap; 
+}
+
+.award-icon {
+  flex: 0 0 24px;
+  text-align: center;
+}
+
+.title-text {
+  flex: 1;
 }

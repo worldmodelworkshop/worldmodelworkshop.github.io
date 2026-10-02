@@ -4,7 +4,18 @@
       
       <!-- <span class="spotlight-badge">Spotlight Paper</span> -->
       
-      <h3 class="spotlight-title">{{ paper.title }}</h3>
+      <h3 class="spotlight-title">
+        {% if paper.award %}
+          {% case paper.award %}
+            {% when 1 %}<span class="award-text">(1st)</span><span class="award-icon">🥇</span>
+            {% when 2 %}<span class="award-text">(2nd)</span><span class="award-icon">🥈</span>
+            {% when 3 %}<span class="award-text">(3rd)</span><span class="award-icon">🥉</span>
+            {% when 4 %}<span class="award-text">(4th)</span><span class="award-icon">🏅</span>
+          {% endcase %}
+        {% endif %}
+        <span class="title-text">{{ paper.title }}</span>
+      </h3>
+
       
       {% if paper.authors %}
         <p class="spotlight-authors">{{ paper.authors }}</p>
