@@ -267,3 +267,58 @@
   font-size: 0.95em;
   line-height: 1.4;
 }
+
+.event-title {
+  margin: 0 0 0.35rem;
+}
+
+.watch-recording-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0 0.6rem;
+  padding: 0.38rem 0.7rem;
+
+  color: #648fff;
+  background: #dde7fe;
+  border: 1px solid #dde7fe;
+  border-radius: 4px;
+
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.watch-recording-button:hover,
+.watch-recording-button:focus-visible {
+  color: #648fff;
+  background: #dde7fe;
+  border: #dde7fe;
+  text-decoration: none;
+}
+
+.watch-recording-button:focus-visible {
+  outline: 3px solid rgba(198, 40, 40, 0.35);
+  outline-offset: 2px;
+}
+
+.watch-recording-button,
+.watch-recording-button:visited {
+  color: #648fff;
+  background: #dde7fe;
+  border: 1px solid #dde7fe;
+  text-decoration: none;
+}
+.watch-recording-button:hover,
+.watch-recording-button:focus-visible,
+.watch-recording-button:visited:hover {
+  color: #648fff;
+  background: #dde7fe;
+  border: #dde7fe;
+  text-decoration: none;
+}
+.watch-recording-button:visited {
+  color: #648fff;
+}

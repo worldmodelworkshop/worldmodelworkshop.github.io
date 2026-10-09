@@ -44,6 +44,20 @@
           </p>
         {% endif %}
 
+        
+        {% if event.youtube and event.youtube != "" %}
+          <a
+            class="watch-recording-button"
+            href="{{ event.youtube }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Watch recording: {{ event.title }}"
+          >
+            <span aria-hidden="true">▶</span>
+            Watch recording
+          </a>
+        {% endif %}
+
         {% if event.subevents %}
         
           {% if event.start_open %}
