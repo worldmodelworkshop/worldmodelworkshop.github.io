@@ -7,6 +7,8 @@ hero_meeting_link: https://osu.zoom.us/j/99116746152?pwd=culdjcQ75N9YA41cWeaWuv6
 hero_alert: "Room 406, 8:30 - 5:30"
 hero_youtube: "Recorded Talks on YouTube"
 hero_youtube_link: https://www.youtube.com/@RoBoWoMo
+hero_openreview: "Accepted Papers on OpenReview"
+hero_openreview_link: https://openreview.net/group?id=IEEE.org/IROS/2026/Workshop/RoBoWoMo#tab-accept-poster-spotlight
 ---
 
 {% include overview.html %}
