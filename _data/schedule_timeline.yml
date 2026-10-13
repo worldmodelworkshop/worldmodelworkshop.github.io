@@ -28,6 +28,7 @@
   speaker: "Sherry Yang"
   affiliation: "New York University, Google DeepMind"
   title: "Evaluating and Improving Physical Agents in a World Model"
+  youtube: https://youtu.be/i27R6xtG_u4
 
 - start_time: "10:00"
   end_time: "10:15"
@@ -97,6 +98,7 @@
   speaker: "Tom Silver and Yixuan Huang"
   affiliation: "Princeton University"
   title: "Towards Robots that Generate Micro-World Models on Demand"
+  youtube: https://youtu.be/gkcstuW4J2Y
 
 - start_time: "12:00"
   end_time: "12:30"
@@ -107,6 +109,7 @@
   speaker: "Siddharth Srivastava"
   affiliation: "Arizona State University"
   title: "Learning Relational World Models for Robot Planning"
+  youtube: https://youtu.be/XtzkLCoyqPg
 
 - start_time: "12:30"
   end_time: "1:30"
